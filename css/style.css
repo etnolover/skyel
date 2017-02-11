@@ -125,14 +125,14 @@ a {
         display: inline-block;
         vertical-align: top;
         padding: 10px 15px;
-        background-color: #d10000;
+        background-color: #53a3da;
         color: #fff;
         font-size: 18px;
-        border: 2px solid #fff;
         border-radius: 5px; }
   .mainpage .company-advantages {
     height: 180px;
     background-color: #5dc2e5;
+    background: linear-gradient(to top, #57abe5, #5dc2e5);
     font-size: 0; }
     .mainpage .company-advantages .advantage-wrapper {
       display: inline-block;

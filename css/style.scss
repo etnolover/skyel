@@ -147,7 +147,6 @@ a {
                 background-color: $btn-primary;
                 color: #fff;
                 font-size: 18px;
-                border: 2px solid #fff;
                 border-radius: 5px;
             }
         }
@@ -155,6 +154,7 @@ a {
     .company-advantages {
         height: 180px;
         background-color: $accent;
+        background: linear-gradient(to top, #57abe5, $accent);
         font-size: 0;
         .advantage-wrapper {
             display: inline-block;

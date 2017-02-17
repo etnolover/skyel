@@ -1,0 +1,30 @@
+.slick-arrow {
+    position: absolute;
+    top: calc(50% - 25px);
+    padding: 0;
+    height: 50px;
+    width: 50px;
+    z-index: 10;
+    font-size: 40px;
+    line-height: 50px;
+    color: $accent;
+    background: $text-bg;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    &.slick-prev {
+        left: 30px;
+    }
+    &.slick-next {
+        right: 30px;
+    }
+}
+.slick-list {
+    height: 100%;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    .slick-track {
+        height: 100%;
+    }
+}

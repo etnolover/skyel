@@ -119,4 +119,38 @@
             }
         }
     }
+    .mainpage__about-services {
+        padding: 30px 20px;
+        background-color: $text-bg;
+        .about-services__paragraph {
+            font-size: 18px;
+            text-align: center;
+            .text-accent {
+                font-size: 19px;
+                font-weight: 700;
+                font-style: italic;
+            }
+        }
+    }
+    .mainpage__gallery {
+        padding-bottom: 30px;
+        height: 280px;
+        font-size: 0;
+        background-color: $text-bg;
+        .mainpage__gallery_container {
+            margin: 0 auto;
+            height: 100%;
+            width: 90%;
+            .gallery-item {
+                margin-right: 10px;
+                height: 50px;
+                .gallery-item__image {
+                    display: inline-block;
+                    vertical-align: top;
+                    width: auto;
+                    height: 250px;
+                }
+            }
+        }
+    }
 }

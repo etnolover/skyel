@@ -1,15 +1,22 @@
 .service__main {
+    padding: 30px 0;
+    background-color: $text-bg;
     .service__photo {
 
     }
-    .service__description {
-        .service__description_paragraph {
-            margin: 0;
-            margin-bottom: 10px;
-            padding: 0;
-            font-size: 18px;
-            line-height: 24px;
-            text-indent: 35px;
+    .service__main_container {
+        @media (max-width: 1200px) {
+            width: 80%;
+        }
+        .service__description {
+            .service__description_paragraph {
+                margin: 0;
+                margin-bottom: 10px;
+                padding: 0;
+                font-size: 18px;
+                line-height: 24px;
+                text-indent: 35px;
+            }
         }
     }
 }

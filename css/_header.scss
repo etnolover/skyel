@@ -52,6 +52,7 @@
     text-transform: uppercase;
     background-color: #D9E1EC;
     border-top: 3px solid $accent;
+    border-bottom: 3px solid $accent;
     @media (max-width: 576px) {
         height: 70px;
     }
@@ -103,7 +104,7 @@
             .nav__dropdown {
                 display: none;
                 position: absolute;
-                top: 47px;
+                top: 44px;
                 margin: 0;
                 padding: 0;
                 width: 100%;

@@ -9,3 +9,7 @@ $(document).ready(function() {
     $(".slick-prev").text("←");
     $(".slick-next").text("→");
 });
+
+$('.mainpage__gallery_container a').on('click', function(e) {
+    e.preventDefault();
+});

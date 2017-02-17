@@ -134,21 +134,53 @@
     }
     .mainpage__gallery {
         padding-bottom: 30px;
-        height: 280px;
+        height: 430px;
         font-size: 0;
         background-color: $text-bg;
+        @media (max-width: 768px) {
+            height: 380px;
+        }
+        @media (max-width: 576px) {
+            height: 310px;
+        }
+        @media (max-width: 480px) {
+            height: 280px;
+        }
+        @media (max-width: 375px) {
+            height: 250px;
+        }
         .mainpage__gallery_container {
             margin: 0 auto;
             height: 100%;
             width: 90%;
+            @media (max-width: 768px) {
+                width: 95%;
+            }
+            @media (max-width: 576px) {
+                width: 98%;
+            }
             .gallery-item {
                 margin-right: 10px;
                 height: 50px;
+                outline: none;
                 .gallery-item__image {
                     display: inline-block;
                     vertical-align: top;
                     width: auto;
-                    height: 250px;
+                    height: 400px;
+                    outline: none;
+                    @media (max-width: 768px) {
+                        height: 350px;
+                    }
+                    @media (max-width: 576px) {
+                        height: 280px;
+                    }
+                    @media (max-width: 480px) {
+                        height: 250px;
+                    }
+                    @media (max-width: 375px) {
+                        height: 220px;
+                    }
                 }
             }
         }

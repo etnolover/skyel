@@ -1,0 +1,148 @@
+.header__top {
+    padding: 15px 0;
+    height: 100px;
+    background-color: #DCEEFC;
+    @media (max-width: 576px) {
+        padding: 15px 10px;
+    }
+    @media (max-width: 375px) {
+        height: 80px;
+    }
+    .header__logo {
+        width: 200px;
+        height: 40px;
+        font-size: 30px;
+        font-style: italic;
+        text-align: center;
+        @media (max-width: 420px) {
+            width: 160px;
+            height: 32px;
+        }
+        @media (max-width: 375px) {
+            width: 140px;
+            height: 28px;
+        }
+    }
+    .header__contacts {
+        float: right;
+        .header__contacts_phone {
+            display: block;
+            font-size: 24px;
+            font-weight: bold;
+            @media (max-width: 576px) {
+                font-size: 20px;
+            }
+            @media (max-width: 375px) {
+                font-size: 16px;
+            }
+        }
+        .header__work-time {
+            float: right;
+            margin-top: 5px;
+            font-size: 14px;
+            @media (max-width: 375px) {
+                font-size: 12px;
+            }
+        }
+    }
+}
+.header__nav {
+    height: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #D9E1EC;
+    border-top: 3px solid $accent;
+    @media (max-width: 576px) {
+        height: 70px;
+    }
+    .nav__list {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-size: 0;
+        list-style: none;
+        .nav__item {
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            width: 25%;
+            height: 100%;
+            font-size: 0;
+            text-align: center;
+            border-right: 1px solid #c7cfd8;
+            @media (max-width: 576px) {
+                width: 50%;
+                height: 50%;
+                &:nth-of-type(2) {
+                    border-right: none;
+                }
+            }
+            &:last-of-type {
+                border-right: none;
+            }
+            &:hover {
+                background-color: #c7cfd8;
+                .nav__dropdown {
+                    display: block;
+                }
+            }
+            & > a {
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                font-size: 18px;
+                line-height: 47px;
+                @media (max-width: 768px) {
+                    font-size: 16px;
+                }
+                @media (max-width: 576px) {
+                    border-bottom: 1px solid #c7cfd8;
+                    line-height: 35px;
+                }
+            }
+            .nav__dropdown {
+                display: none;
+                position: absolute;
+                top: 47px;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                font-size: 0;
+                border-top: 3px solid $accent;
+                background-color: #D9E1EC;
+                list-style: none;
+                z-index: 1000;
+                @media (max-width: 576px) {
+                    top: 33px;
+                }
+                .nav__dropdown_item {
+                    font-size: 16px;
+                    font-weight: 500;
+                    border-bottom: 1px solid #c7cfd8;
+                    @media (max-width: 768px) {
+                        font-size: 14px;
+                    }
+                    & > a {
+                        display: inline-block;
+                        width: 100%;
+                        line-height: 35px;
+                        &:hover {
+                            background-color: $accent;
+                            text-decoration: underline;
+                        }
+                    }
+                    &:last-of-type {
+                        & a {
+                            @media (min-width: 577px) and (max-width: 992px) {
+                                line-height: 25px;
+                            }
+                            @media (max-width: 342px) {
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

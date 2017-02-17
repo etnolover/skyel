@@ -1,0 +1,33 @@
+.footer {
+    padding: 15px 0;
+    height: 150px;
+    background-color: #DCEEFC;
+    border-top: 3px solid $accent;
+    @media (max-width: 576px) {
+        padding: 15px 10px;
+        height: 180px;
+    }
+    @media (max-width: 420px) {
+        height: 220px;
+    }
+    .footer__container {
+        .footer__copyright {
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .footer__address {
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+        .footer__tel {
+            margin-bottom: 5px;
+            font-size: 18px;
+            font-style: italic;
+        }
+        .footer__work-time {
+            font-size: 18px;
+            font-style: italic;
+        }
+    }
+}

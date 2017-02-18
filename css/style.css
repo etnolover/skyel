@@ -318,7 +318,8 @@ a {
             line-height: 18px; } }
   .mainpage .mainpage__about-services {
     padding: 30px 20px;
-    background-color: #eaf3fe; }
+    background-color: #eaf3fe;
+    border-top: 3px solid #5dc2e5; }
     .mainpage .mainpage__about-services .about-services__paragraph {
       font-size: 18px;
       text-align: center; }
@@ -327,35 +328,55 @@ a {
         font-weight: 700;
         font-style: italic; }
   .mainpage .mainpage__gallery {
+    padding-top: 30px;
     padding-bottom: 30px;
-    height: 430px;
+    height: 540px;
     font-size: 0;
-    background-color: #eaf3fe; }
+    background-color: #eaf3fe;
+    border-top: 3px solid #5dc2e5; }
     @media (max-width: 768px) {
       .mainpage .mainpage__gallery {
-        height: 380px; } }
+        height: 490px; } }
     @media (max-width: 576px) {
       .mainpage .mainpage__gallery {
-        height: 310px; } }
+        height: 420px; } }
     @media (max-width: 480px) {
       .mainpage .mainpage__gallery {
-        height: 280px; } }
+        height: 390px; } }
     @media (max-width: 375px) {
       .mainpage .mainpage__gallery {
-        height: 250px; } }
+        height: 360px; } }
+    .mainpage .mainpage__gallery .mainpage__gallery_heading {
+      margin: 0;
+      margin-bottom: 30px;
+      padding: 0;
+      height: 35px;
+      font-size: 36px;
+      color: #000;
+      text-align: center; }
+      @media (max-width: 420px) {
+        .mainpage .mainpage__gallery .mainpage__gallery_heading {
+          font-size: 30px; } }
     .mainpage .mainpage__gallery .mainpage__gallery_container {
       margin: 0 auto;
-      height: 100%;
-      width: 90%; }
+      width: 90%;
+      height: 400px; }
       @media (max-width: 768px) {
         .mainpage .mainpage__gallery .mainpage__gallery_container {
-          width: 95%; } }
+          width: 95%;
+          height: 350px; } }
       @media (max-width: 576px) {
         .mainpage .mainpage__gallery .mainpage__gallery_container {
-          width: 98%; } }
+          width: 98%;
+          height: 280px; } }
+      @media (max-width: 480px) {
+        .mainpage .mainpage__gallery .mainpage__gallery_container {
+          height: 250px; } }
+      @media (max-width: 375px) {
+        .mainpage .mainpage__gallery .mainpage__gallery_container {
+          height: 220px; } }
       .mainpage .mainpage__gallery .mainpage__gallery_container .gallery-item {
         margin-right: 10px;
-        height: 50px;
         outline: none; }
         .mainpage .mainpage__gallery .mainpage__gallery_container .gallery-item .gallery-item__image {
           display: inline-block;

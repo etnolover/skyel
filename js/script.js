@@ -12,4 +12,6 @@ $(document).ready(function() {
 
 $('.mainpage__gallery_container a').on('click', function(e) {
     e.preventDefault();
+    $this = $(this);
+    var image = $this.find('.gallery-item__image');
 });

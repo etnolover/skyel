@@ -321,10 +321,10 @@ a {
     background-color: #eaf3fe;
     border-top: 3px solid #5dc2e5; }
     .mainpage .mainpage__about-services .about-services__paragraph {
-      font-size: 18px;
+      font-size: 22px;
       text-align: center; }
       .mainpage .mainpage__about-services .about-services__paragraph .text-accent {
-        font-size: 19px;
+        font-size: 24px;
         font-weight: 700;
         font-style: italic; }
   .mainpage .mainpage__gallery {

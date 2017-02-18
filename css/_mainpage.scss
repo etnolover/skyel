@@ -126,10 +126,16 @@
         .about-services__paragraph {
             font-size: 22px;
             text-align: center;
+            @media (max-width: 420px) {
+                font-size: 18px;
+            }
             .text-accent {
                 font-size: 24px;
                 font-weight: 700;
                 font-style: italic;
+                @media (max-width: 420px) {
+                    font-size: 19px;
+                }
             }
         }
     }

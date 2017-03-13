@@ -1,0 +1,48 @@
+.main__about {
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: $text-bg;
+    .main__about_container {
+        @media (max-width: 1200px) {
+            width: 80%;
+        }
+        .about__heading {
+            margin: 0;
+            margin-bottom: 30px;
+            padding: 0;
+            font-size: 36px;
+            color: #000;
+            text-align: center;
+            @media (max-width: 420px) {
+                font-size: 30px;
+            }
+        }
+        .about__img {
+            float: right;
+            margin-left: 20px;
+            @media (max-width: 992px) {
+                display: none;
+            }
+        }
+        .about__description {
+            .about__description_paragraph {
+                margin: 0;
+                margin-bottom: 10px;
+                padding: 0;
+                font-size: 18px;
+                line-height: 24px;
+                text-indent: 35px;
+            }
+            .about__description-list {
+                .about__description-item {
+                    margin: 0;
+                    margin-bottom: 10px;
+                    padding: 0;
+                    font-size: 18px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".gallery__container").slick({infinite:!0,slidesToShow:1,centerMode:!0,variableWidth:!0,speed:300}),$(".slick-prev").text("←"),$(".slick-next").text("→")});
